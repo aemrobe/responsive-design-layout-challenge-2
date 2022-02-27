@@ -49,7 +49,8 @@ I have
 which have a class of the .intro-content
 it contain one h1 element and one p element.
 
-```HTML
+```
+   HTML
    <div class="intro-content">
              <h1>Lorem ipsum dolor sit.</h1>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur distinctio laudantium
@@ -59,7 +60,8 @@ it contain one h1 element and one p element.
 
 ** lower part**
 which is found at the bottom of the .intro-content It have one h2 element and 3 p elements and I call these elements "lower elements"
-``` CSS
+``` 
+    CSS
         <h2>more content D:</h2>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, mollitia adipisci magnam voluptatibus
@@ -82,7 +84,8 @@ which is found at the bottom of the .intro-content It have one h2 element and 3 
 
 inorder to solve this problem I should wrap both .intro-content and the lower elements under the .container class. after wrapping them by the .container class we can give max-width to the .container class so the width of both .intro-content and lower elements will be limited because they are wrapped by the container class and we will give a property of margin: 0 auto to the container and both elements the intro-content and the lower elements will be centered.
 
-```HTML
+```
+ HTML
 <!--upper element -->
 <div class="container">
     <div class="intro-content">
@@ -114,7 +117,8 @@ inorder to solve this problem I should wrap both .intro-content and the lower el
 </div>
 ```
 
-```CSS
+```
+  CSS
 .container{
  max-width: 750px;
  margin: 0 auto;
@@ -124,7 +128,8 @@ inorder to solve this problem I should wrap both .intro-content and the lower el
 
 after we have done this inorder to make the .intro-content half the width of the the lower element we will give it a width of 50% to the .intro-content.
 
-```css
+```
+   css
 .container {
   max-width: 750px;
   margin: 0 auto;
@@ -137,7 +142,8 @@ after we have done this inorder to make the .intro-content half the width of the
 
 then inorder to make the background of the .intro-content extend from oneside of the viewport to the other side of the viewport we should wrap the .intro-content with "wrapper" class container and give the background property to .wrapper class because the width of the .intro-content is limited by the container class it doesn't extend from oneside of the viewport to the other side.
 
-```html
+```
+  HTML
 <div class="wrapper">
   <div class="container">
     <div class="intro-content">
@@ -176,7 +182,8 @@ then inorder to make the background of the .intro-content extend from oneside of
 </div>
 ```
 
-```css
+```
+  css
 .wrapper {
   background: #23424a; /*it give the background as we want */
   color: white;
@@ -195,7 +202,8 @@ then inorder to make the background of the .intro-content extend from oneside of
 
 inorder to make it look more good we should give the width for our container class because our container class have only max-width it doesn't have a value for the width . since our container class is a block element it have a width of 100% by default so at smaller screen sizes it won't have a padding at the left at the right so we can give it percentage value for the container class so it will have more space at the left and right at smaller screen sizes. so both the upper element and the lower elemnt will still be responsive and look good.
 
-```css
+```
+   css
 .container {
   width: 80%; /*it will have more space from the right and left at smaller screen sizes */
   max-width: 750px;
