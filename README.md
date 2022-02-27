@@ -49,7 +49,7 @@ I have
 which have a class of the .intro-content
 it contain one h1 element and one p element.
 
-```
+```HTML
    <div class="intro-content">
              <h1>Lorem ipsum dolor sit.</h1>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aspernatur distinctio laudantium
@@ -59,7 +59,7 @@ it contain one h1 element and one p element.
 
 ** lower part**
 which is found at the bottom of the .intro-content It have one h2 element and 3 p elements and I call these elements "lower elements"
-```
+``` CSS
         <h2>more content D:</h2>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, mollitia adipisci magnam voluptatibus
