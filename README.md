@@ -16,12 +16,12 @@ responisve layout challenge 1
 
 1. your page is divided in to two part the upper part and the lower part you upper part have a div class of (.intro-content) and your lower part have one h2 element and three p elements
 
-2. -Keep the text inside (.intro-content)
+2. Keep the text inside (.intro-content)
   in the same place, but have the background
   extend from one side of the viewport
   to the other, no matter how wide or narrow
   the browser is.
-3.-Limit the maximum width of the text in the
+3.Limit the maximum width of the text in the
     ower elements which are found in lower part.  
 
 4.  make the .intro-content half of the width of the lower part and put both parts at the center and the text inside both the upper part and lower part should start from the same left position so they will alingn veritically at the center
@@ -41,13 +41,13 @@ screenshots/responsive layout challenge 2
 
 ## My process
 
-when I make this challenge the thing which was a problem to me is to make the upper part half of the lower part and still align them horizontally at the center and the text inside them should start at the same position as shown above in the screenshot.
+when I make this challenge the thing which was a problem to me is to make the upper part half of the width of  the lower part and still align them horizontally at the center. the text inside both parts should start at the same position as shown above in the screenshot.
 
 when I start doing it
 I have
 ** upper part **
 which have a class of the .intro-content
-which contain one h1 element and one p element.
+it contain one h1 element and one p element.
 
 ```
    <div class="intro-content">
