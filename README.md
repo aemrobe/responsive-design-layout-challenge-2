@@ -1,4 +1,4 @@
-responisve layout challenge 1
+Responsive design layout challenge 2
 
 ## Table of contents
 
