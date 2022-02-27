@@ -58,9 +58,9 @@ it contain one h1 element and one p element.
 ```
 
 ** lower part**
-at the bottom of the .intro-content I have one h2 element and 3 p elements and I call them "lower elements"
+which is found at the bottom of the .intro-content It have one h2 element and 3 p elements and I call these elements "lower elements"
 ```
-<h2>more content D:</h2>
+        <h2>more content D:</h2>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, mollitia adipisci magnam voluptatibus
             repellendus fuga ut repellat exercitationem eaque amet, omnis aliquam fugiat laudantium id dicta at? Consectetur
@@ -76,7 +76,7 @@ at the bottom of the .intro-content I have one h2 element and 3 p elements and I
             reiciendis est facilis enim praesentium officia sequi qui debitis exercitationem quaerat hic quos recusandae.
             Architecto repudiandae aperiam tempora iste saepe error.
         </p>
-    ```
+ ```
 
 ** the problem I had when i am doing this challenge was to make the .intro-content half of the size of the lower elements placing them at the center while the text inside them start at the same postion at the left **
 to solve this problem wrapping both .intro-content and the lower elements under the container class. after wrapping them by the container class we can give max-width to the container class so the width of both .intro-content and lower elements will be limited and we will give a property of margin: 0 auto to the container and both elements will be centered.
