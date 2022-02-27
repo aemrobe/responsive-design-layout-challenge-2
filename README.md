@@ -31,9 +31,9 @@ you have a file path for the screenshot of the design at the bottom
 ### Screenshot
 
 ![](./screenshot.jpg)
-
 file path for the screenshot:
 screenshots/responsive layout challenge 2
+
 
 ### Links
 
