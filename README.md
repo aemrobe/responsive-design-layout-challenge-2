@@ -79,7 +79,8 @@ which is found at the bottom of the .intro-content It have one h2 element and 3 
  ```
 
 ** the problem I had when i am doing this challenge was to make the .intro-content half of the size of the lower elements placing them at the center while the text inside them start at the same postion at the left **
-to solve this problem wrapping both .intro-content and the lower elements under the container class. after wrapping them by the container class we can give max-width to the container class so the width of both .intro-content and lower elements will be limited and we will give a property of margin: 0 auto to the container and both elements will be centered.
+
+inorder to solve this problem I should wrap both .intro-content and the lower elements under the .container class. after wrapping them by the .container class we can give max-width to the .container class so the width of both .intro-content and lower elements will be limited because they are wrapped by the container class and we will give a property of margin: 0 auto to the container and both elements the intro-content and the lower elements will be centered.
 
 ```HTML
 <!--upper element -->
@@ -121,7 +122,7 @@ to solve this problem wrapping both .intro-content and the lower elements under 
 
 ```
 
-after we have done this inorder to make the .intro-content half the width of the the lower element we will give it a width of 50%.
+after we have done this inorder to make the .intro-content half the width of the the lower element we will give it a width of 50% to the .intro-content.
 
 ```css
 .container {
@@ -134,7 +135,7 @@ after we have done this inorder to make the .intro-content half the width of the
 }
 ```
 
-then inorder to make the background of the .intro-content extend from oneside of the viewport to the other side of the viewport we should wrap the .intro-content with "wrapper" class container and give the backgroud-color property to wrapper class because the width of the .intro-content is limited by the container class it doesn't extend from oneside of the viewport to the other
+then inorder to make the background of the .intro-content extend from oneside of the viewport to the other side of the viewport we should wrap the .intro-content with "wrapper" class container and give the background property to .wrapper class because the width of the .intro-content is limited by the container class it doesn't extend from oneside of the viewport to the other side.
 
 ```html
 <div class="wrapper">
