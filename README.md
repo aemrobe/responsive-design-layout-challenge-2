@@ -47,7 +47,7 @@ when I start doing it
 I have
 ** upper part **
 which have a class of the .intro-content
-it contain one h1 element and one p element.
+it contain one h1 element and one p element and I call these elements the upper elements.
 
 ```
    HTML
